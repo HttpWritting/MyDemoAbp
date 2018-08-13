@@ -29,7 +29,6 @@ namespace MyDemoAbp.Web
 
             //Configure navigation/menu
             Configuration.Navigation.Providers.Add<MyDemoAbpNavigationProvider>();
-
             //Configure Hangfire - ENABLE TO USE HANGFIRE INSTEAD OF DEFAULT JOB MANAGER
             //Configuration.BackgroundJobs.UseHangfire(configuration =>
             //{
